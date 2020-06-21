@@ -9,7 +9,7 @@ export const CityContainer = styled.div`
 `;
 
 export const MaxWidth = styled.div`
-  max-width: 992px;
+  max-width: 850px;
   margin: 0 auto;
 `;
 
@@ -18,6 +18,7 @@ export const Description = styled.div`
   margin: 10px;
   color: #fff;
   text-align: left;
+  margin-bottom: 40px;
 
   @media screen and (min-width: 992px) {
     margin-left: 25px;
@@ -25,12 +26,16 @@ export const Description = styled.div`
 `;
 
 export const Title = styled.h3`
-  /* border: 2px solid yellow; */
+  margin-bottom: 20px;
 `;
 
 export const Text = styled.p`
   /* border: 2px solid yellow; */
 `;
+
+// export const Gallery = styled.div`
+//   display: flex;
+// `;
 
 export const Picture = styled.div`
   margin: 10px auto;

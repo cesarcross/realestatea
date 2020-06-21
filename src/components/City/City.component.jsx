@@ -12,7 +12,7 @@ import {
 import city from "../../assets/images/city.jpg";
 import city1 from "../../assets/images/city1.png";
 import city2 from "../../assets/images/city2.jpg";
-import city3 from "../../assets/images/city3.jpeg";
+import city3 from "../../assets/images/city3.jpg";
 import city4 from "../../assets/images/city4.jpeg";
 
 export const City = () => (
@@ -31,16 +31,16 @@ export const City = () => (
         <img src={city} alt=""></img>
       </Picture>
       <Picture>
-        <img src={city1} alt=""></img>
-      </Picture>
-      <Picture>
-        <img src={city2} alt=""></img>
-      </Picture>
-      <Picture>
         <img src={city3} alt=""></img>
       </Picture>
       <Picture>
         <img src={city4} alt=""></img>
+      </Picture>
+      <Picture>
+        <img src={city1} alt=""></img>
+      </Picture>
+      <Picture>
+        <img src={city2} alt=""></img>
       </Picture>
     </MaxWidth>
   </CityContainer>

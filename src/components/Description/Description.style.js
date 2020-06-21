@@ -14,8 +14,11 @@ import {
 import { MdPets } from "react-icons/md";
 
 export const DescriptionContainer = styled.div`
-  /* border: 2px solid green; */
   margin: 40px auto;
+
+  @media screen and (min-width: 992px) {
+    margin: 80px auto;
+  }
 `;
 
 export const Item = styled.div`
@@ -29,12 +32,21 @@ export const Item = styled.div`
   }
 
   li {
-    /* flex-direction: row; */
     width: 80px;
   }
 
   p {
     font-size: 0.7rem;
+  }
+
+  @media screen and (min-width: 992px) {
+    li {
+      width: 155px;
+    }
+
+    p {
+      font-size: 1rem;
+    }
   }
 `;
 
@@ -73,12 +85,22 @@ export const MountainIcon = styled(FaMountain)`
   color: #85d7ea;
 `;
 
+export const PetIcon = styled(MdPets)`
+  font-size: 25px;
+  color: #85d7ea;
+`;
+
 export const MapIcon = styled(FaMapMarkerAlt)`
   font-size: 25px;
   color: #85d7ea;
 `;
 
-export const PetIcon = styled(MdPets)`
-  font-size: 25px;
-  color: #85d7ea;
+export const Nearby = styled.p`
+  margin: 20px;
+  font-size: 0.7rem;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 992px) {
+    font-size: 1rem;
+  }
 `;

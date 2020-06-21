@@ -5,7 +5,7 @@ export const IntroContainer = styled.div`
 `;
 
 export const Text = styled.h3`
-  font-size: 2rem;
-  /* color: blue; */
+  font-size: 1.8rem;
+  margin: 40px auto;
   justify-content: center;
 `;

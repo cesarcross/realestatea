@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  /* border: 2px solid green; */
+  margin: 50px auto;
 `;
 
 export const Title = styled.h3`
-  margin-top: 20px;
+  margin: 10px auto;
+  width: 90%;
 `;
 
 export const Whatsapp = styled.div`
-  /* border: 2px solid yellow; */
+  margin: 30px auto;
 `;
 
 export const Form = styled.div`
@@ -46,8 +47,8 @@ export const Form = styled.div`
     border: none;
     margin: 20px 0;
     padding: 5px;
-    border-radius: 1px;
-    background: #ada7a7;
+    border-radius: 5px;
+    background: #f7f4f4;
 
     @media screen and (min-width: 768px) {
       font-size: 1.5rem;
@@ -69,7 +70,7 @@ export const Form = styled.div`
     width: 40%;
     margin: 5px auto;
     height: 40px;
-    border-radius: 2px;
+    border-radius: 5px;
     font-size: 1rem;
 
     &:hover {

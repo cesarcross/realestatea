@@ -12,6 +12,7 @@ import {
   MountainIcon,
   MapIcon,
   PetIcon,
+  Nearby,
 } from "./Description.style";
 
 export const Description = () => (
@@ -60,8 +61,7 @@ export const Description = () => (
         </li>
       </ul>
     </Item>
-    <p>Cidades próximas:</p>
-    <p>Monte Sião, Lindóia, Serra Negra</p>
+    <Nearby>Cidades próximas: Monte Sião, Lindóia, Serra Negra</Nearby>
   </DescriptionContainer>
 );
 

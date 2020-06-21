@@ -1,4 +1,13 @@
 react-slick
 styled-components
 react-icons
+react-scroll
+react-bootstrap
 
+fix:
+navbar
+carosel
+favicon
+form alert
+
+whats button: "http://api.whatsapp.com/send?1=pt_BR&phone=5511981263581"
