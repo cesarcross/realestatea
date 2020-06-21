@@ -1,33 +1,40 @@
 import React from "react";
-import Slider from "react-slick";
 
-import { CarouselContainer, SliderContainer, Image } from "./Carousel.style";
+import {
+  CarouselContainer,
+  SliderContainer,
+  CarouselSlider,
+  Item,
+  TemporaryImage,
+} from "./Carousel.style";
 
 import fachada from "../../assets/images/fachada.jpeg";
 import cozinha from "../../assets/images/cozinha.jpeg";
 
-export const Carousel = () => {
+const Carousel = () => {
   const settings = {
     dots: true,
-    infinite: true,
-    speed: 1500,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
+    acessibility: true,
+    // infinite: true,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
 
   return (
     <CarouselContainer>
+      <TemporaryImage>
+        <img src={fachada} alt=""></img>
+      </TemporaryImage>
       <SliderContainer>
-        <Slider {...settings}>
-          <Image>
-            <img src={fachada} alt="" />
-          </Image>
-          <Image>
-            <img src={cozinha} alt="" />
-          </Image>
-        </Slider>
+        <CarouselSlider {...settings}>
+          <Item>
+            <img src={fachada} alt=""></img>
+          </Item>
+          <Item>
+            <img src={cozinha} alt=""></img>
+          </Item>
+        </CarouselSlider>
       </SliderContainer>
     </CarouselContainer>
   );
