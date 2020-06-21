@@ -1,76 +1,88 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 `;
 
 export const Title = styled.h3`
-  border: 2px solid yellow;
+  margin-top: 20px;
 `;
 
 export const Whatsapp = styled.div`
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 `;
 
 export const Form = styled.div`
-  margin: 5px auto 0;
-  width: 80%;
+  width: 80vw;
+  margin: 0 auto;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
   h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: left;
-    color: #fff;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #d3d3cb;
 
-    span {
-      display: block;
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 1.5rem;
     }
   }
 
   textarea {
     resize: none;
+    height: 200px;
   }
 
   input,
   textarea {
-    display: flex;
-    border-radius: 10px;
-    width: 100%;
-    margin: 15px auto;
-    padding: 20px;
     border: none;
+    margin: 20px 0;
+    padding: 5px;
+    border-radius: 1px;
+    background: #ada7a7;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 1rem;
+    }
+
+    ::placeholder {
+      /* color: #3b0918; */
+    }
   }
 
   input:last-of-type {
-    background: #242f62;
+    border: none;
     color: #fff;
-    font-size: 1.2rem;
-    font-weight: 700;
-    justify-content: center;
-  }
-
-  @media screen and (min-width: 992px) {
+    background: #436f8a;
     width: 40%;
+    margin: 5px auto;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 1rem;
 
-    textarea {
-      height: 255px;
+    &:hover {
+      background: #709fb0;
+      transition: all 0.3s ease;
     }
-
-    input:last-of-type {
-      width: 50%;
-      padding: 5px 100px;
-      margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+      width: 30%;
     }
   }
 
-  @media screen and (min-width: 1200px) {
-    width: 40%;
-    margin: 0 5px;
-    margin-left: 20px;
-
-    h3 {
-      text-align: left;
-      margin: 0 0 60px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 70%;
+    max-width: 540px;
   }
 `;
