@@ -6,4 +6,8 @@ export const NavbarContainer = styled.div`
 
 export const NavItem = styled.div`
   border: 2px solid yellow;
+
+  button {
+    border: none;
+  }
 `;
