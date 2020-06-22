@@ -24,9 +24,10 @@ export const Contact = () => (
           name="_redirect"
           type="hidden"
           id="name"
-          value="https://restaurant-uva.now.sh"
+          value="https://aguasdelindoia.vercel.app/"
         />
         <input name="name" type="text" id="name" placeholder="Nome" />
+        <input name="phone" type="text" id="phone" placeholder="Telefone" />
         <input name="email" type="email" id="email" placeholder="Email" />
         <textarea
           name="comment"

@@ -95,12 +95,21 @@ export const MapIcon = styled(FaMapMarkerAlt)`
   color: #85d7ea;
 `;
 
-export const Nearby = styled.p`
-  margin: 20px;
-  font-size: 0.7rem;
-  flex-wrap: wrap;
-
+export const PriceText = styled.p`
+  margin-top: 20px;
+`;
+export const Price = styled.h3`
   @media screen and (min-width: 992px) {
-    font-size: 1rem;
+    font-size: 3rem;
   }
 `;
+
+// export const Nearby = styled.p`
+//   margin: 20px;
+//   font-size: 0.7rem;
+//   flex-wrap: wrap;
+
+//   @media screen and (min-width: 992px) {
+//     font-size: 1rem;
+//   }
+// `;

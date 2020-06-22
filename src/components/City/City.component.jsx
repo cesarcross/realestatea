@@ -21,10 +21,22 @@ export const City = () => (
       <Description>
         <Title>Conheça Águas de Lindóia</Title>
         <Text>
-          Localizada a x km de sao paulo e com fontes de aguas termais distante
-          do apocalipse zumbi e belas plantaçoes de acerola com capivaras ao
-          redor do lago e gnomos tocando violino, é a cidade perfeita para quem
-          gosta de uma boa torta de palmito
+          Águas de Lindóia é um dos onze municípios paulistas considerados
+          estâncias hidrominerais. Localizada a 180km de São Paulo, é uma cidade
+          tranquila, repleta de áreas verdes e com exuberantes paisagens que
+          podem ser avistadas das trilhas e montanhas mais próximas.
+        </Text>
+        <Text>
+          O charmoso centro da cidade conta com a praça Adhemar de Barros, onde
+          feiras e jardins contornam o famoso lago. Próximo dali, a avenida
+          principal contém comércios locais e ótimas opções de restaurante. O
+          acesso ao Balneário também é fácil, a cerca de 10 minutos de carro.
+          Para quem deseja qualidade de vida, Águas de Lindóia é uma excelente
+          opção.
+        </Text>
+        <Text>Cidades próximas: Monte Sião, Lindóia, Serra Negra</Text>
+        <Text>
+          Conheça mais através do site: https://aguasdelindoia.com.br/
         </Text>
       </Description>
       <Picture>

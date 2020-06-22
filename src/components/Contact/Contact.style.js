@@ -45,7 +45,7 @@ export const Form = styled.div`
   input,
   textarea {
     border: none;
-    margin: 20px 0;
+    margin: 5px 0;
     padding: 5px;
     border-radius: 5px;
     background: #f7f4f4;

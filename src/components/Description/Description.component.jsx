@@ -12,6 +12,8 @@ import {
   MountainIcon,
   MapIcon,
   PetIcon,
+  PriceText,
+  Price,
   Nearby,
 } from "./Description.style";
 
@@ -61,7 +63,9 @@ export const Description = () => (
         </li>
       </ul>
     </Item>
-    <Nearby>Cidades próximas: Monte Sião, Lindóia, Serra Negra</Nearby>
+    <PriceText>Valor do Imóvel</PriceText>
+    <Price>R$ 370.000</Price>
+    {/* <Nearby></Nearby> */}
   </DescriptionContainer>
 );
 

@@ -1,10 +1,12 @@
 import React from "react";
 
-import { IntroContainer, Text } from "./Intro.style";
+import { IntroContainer, Title, Text } from "./Intro.style";
 
 export const Intro = () => (
   <IntroContainer>
-    <Text>Incrível apartamento em Águas de Lindóia</Text>
+    <Title>Incrível apartamento em Águas de Lindóia</Title>
+    <Text>Localizado no bairro Jardim Maciel</Text>
+    <Text>Próximo da praça Adhemar de Barros</Text>
   </IntroContainer>
 );
 
