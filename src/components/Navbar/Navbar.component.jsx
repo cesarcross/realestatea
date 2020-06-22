@@ -23,10 +23,10 @@
 
 // NEW NAV DOWN BELOW
 
-import React from "react";
+import React from 'react';
 
-import { NavbarContainer, Navbar, Nav } from "./Navbar.style";
-import Scroll from "react-scroll";
+import { NavbarContainer, Navbar, Nav } from './Navbar.style';
+import Scroll from 'react-scroll';
 
 const NavbarDefault = () => {
   const ScrollLink = Scroll.Link;
