@@ -41,7 +41,7 @@ export const Description = () => (
         </li>
         <li>
           <BuildingIcon />
-          <p>3 andar</p>
+          <p>2 andar</p>
         </li>
         <li>
           <CouchIcon />
