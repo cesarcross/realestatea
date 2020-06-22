@@ -1,7 +1,12 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 
-import { ContactContainer, Title, Whatsapp, Form } from './Contact.style';
+import {
+  ContactContainer,
+  Title,
+  Whatsapp,
+  FormContainer,
+} from './Contact.style';
 
 import whatsapp from '../../assets/images/whatsappicon.png';
 
@@ -14,20 +19,20 @@ export const Contact = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={whatsapp} alt="" />
+        <a
+          href="http://api.whatsapp.com/send?1=pt_BR&phone=5511981263581"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={whatsapp} alt="WhatsApp" />
+        </a>
       </Whatsapp>
-      <Form>
+      <FormContainer>
         <form
           id="contactform"
-          action="https://formsubmit.io/send/ebaf272f-0e6b-441c-8c2a-7881d541c7be"
+          action="https://mailthis.to/aguasdelindoia"
           method="POST"
         >
-          <input
-            name="_redirect"
-            type="hidden"
-            id="name"
-            value="https://aguasdelindoia.vercel.app/"
-          />
           <input name="name" type="text" id="name" placeholder="Nome" />
           <input name="phone" type="text" id="phone" placeholder="Telefone" />
           <input name="email" type="email" id="email" placeholder="Email" />
@@ -38,13 +43,19 @@ export const Contact = () => (
             placeholder="Escreva sua mensagem"
           />
           <input
-            name="_formsubmit_id"
-            type="text"
-            style={{ display: 'none' }}
+            type="hidden"
+            name="_subject"
+            value="Apartamento Agua de Lindoia"
+          />
+          <input type="hidden" name="_honeypot" value="" />
+          <input
+            type="hidden"
+            name="_confirmation"
+            value="Obrigado pela sua mensagem, retornaremos em breve!"
           />
           <input type="submit" value="Enviar" />
         </form>
-      </Form>
+      </FormContainer>
     </ContactContainer>
   </Element>
 );
