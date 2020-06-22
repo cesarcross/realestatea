@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Slider from "react-slick";
+import styled from 'styled-components';
+import Slider from 'react-slick';
 
 export const CarouselContainer = styled.div``;
 
@@ -12,10 +12,34 @@ export const TemporaryImage = styled.div`
 `;
 
 export const SliderContainer = styled.div`
-  display: none;
+  /* display: none; */
+  width: 90%;
+  margin: 0 auto;
 
   @media screen and (min-width: 768px) {
-    display: none;
+    display: block;
+
+    .slick-slider {
+      margin: 0;
+
+      .slick-prev {
+        /* left: 15px; */
+      }
+
+      .slick-next {
+        /* right: 15px; */
+      }
+
+      .slick-prev,
+      .slick-next {
+        z-index: 1;
+      }
+
+      .slick-arrow::before {
+        color: #000;
+        opacity: 1;
+      }
+    }
   }
 `;
 

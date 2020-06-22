@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
   margin: 50px auto;
@@ -13,7 +13,7 @@ export const Whatsapp = styled.div`
   margin: 30px auto;
 `;
 
-export const Form = styled.div`
+export const FormContainer = styled.div`
   width: 80vw;
   margin: 0 auto;
 

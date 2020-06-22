@@ -49,12 +49,7 @@ const NavbarDefault = () => {
                 <span className="bar">|</span>
               </Nav.Item>
             </ScrollLink>
-            <ScrollLink
-              to="aguas de lindoia"
-              spy={true}
-              smooth={true}
-              duration={1000}
-            >
+            <ScrollLink to="city" spy={true} smooth={true} duration={1000}>
               <Nav.Item>
                 <button>Águas de Lindóia</button>
                 <span className="bar">|</span>
