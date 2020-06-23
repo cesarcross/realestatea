@@ -65,7 +65,7 @@ export const Description = () => (
         </ul>
       </Item>
       <PriceText>Valor do Imóvel</PriceText>
-      <Price>R$ 370.000</Price>
+      <Price>R$ 350.000</Price>
     </DescriptionContainer>
   </Element>
 );
