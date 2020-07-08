@@ -45,8 +45,8 @@ export const Description = () => (
             <p>2 andar</p>
           </li>
           <li>
-            <CouchIcon />
-            <p>Mobiliado</p>
+            <MapIcon />
+            <p>Excelente localização</p>
           </li>
         </ul>
         <ul>
@@ -57,10 +57,6 @@ export const Description = () => (
           <li>
             <PetIcon />
             <p>Aceita animais</p>
-          </li>
-          <li>
-            <MapIcon />
-            <p>Excelente localização</p>
           </li>
         </ul>
       </Item>
