@@ -1,25 +1,19 @@
-import React from 'react';
-import Slider from 'react-slick';
-import { Element } from 'react-scroll';
+import React from "react";
+import Slider from "react-slick";
+import { Element } from "react-scroll";
 
-import {
-  CarouselContainer,
-  SliderContainer,
-  // CarouselSlider,
-  Item,
-  // TemporaryImage,
-} from './Carousel.style';
+import { CarouselContainer, SliderContainer, Item } from "./Carousel.style";
 
-import fachada from '../../assets/images/fachada.jpeg';
-import cozinha from '../../assets/images/cozinha.jpeg';
-import cozinha2 from '../../assets/images/cozinha2.jpeg';
-import piscina from '../../assets/images/piscina.jpeg';
-import quarto from '../../assets/images/quarto.jpeg';
-import sala from '../../assets/images/sala.jpeg';
-import sala2 from '../../assets/images/sala2.jpeg';
-import sala3 from '../../assets/images/sala3.jpeg';
-import salajantar from '../../assets/images/salajantar.jpeg';
-import vista from '../../assets/images/vista.jpeg';
+import fachada from "../../assets/images/fachada.jpeg";
+import cozinha from "../../assets/images/cozinha.jpeg";
+import cozinha2 from "../../assets/images/cozinha2.jpeg";
+import piscina from "../../assets/images/piscina.jpeg";
+import quarto from "../../assets/images/quarto.jpeg";
+import sala from "../../assets/images/sala.jpeg";
+import sala2 from "../../assets/images/sala2.jpeg";
+import sala3 from "../../assets/images/sala3.jpeg";
+import salajantar from "../../assets/images/salajantar.jpeg";
+import vista from "../../assets/images/vista.jpeg";
 
 const Carousel = () => {
   const settings = {
@@ -34,9 +28,6 @@ const Carousel = () => {
   return (
     <Element id="fotos" name="fotos">
       <CarouselContainer>
-        {/* <TemporaryImage>
-          <img src={fachada} alt=""></img>
-        </TemporaryImage> */}
         <SliderContainer>
           <Slider {...settings}>
             <Item>
