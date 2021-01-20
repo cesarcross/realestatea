@@ -1,5 +1,5 @@
-import React from "react";
-import { Element } from "react-scroll";
+import React from 'react';
+import { Element } from 'react-scroll';
 
 import {
   DescriptionContainer,
@@ -15,10 +15,10 @@ import {
   PetIcon,
   PriceText,
   Price,
-} from "./Description.style";
+} from './Description.style';
 
 export const Description = () => (
-  <Element id="descricao" name="descricao">
+  <Element id='descricao' name='descricao'>
     <DescriptionContainer>
       <Item>
         <ul>
@@ -61,7 +61,7 @@ export const Description = () => (
         </ul>
       </Item>
       <PriceText>Valor do Imóvel</PriceText>
-      <Price>R$ 350.000</Price>
+      <Price>R$ 360.000</Price>
     </DescriptionContainer>
   </Element>
 );
